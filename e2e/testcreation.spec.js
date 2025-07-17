@@ -8,6 +8,7 @@ test('sample test', async ({ browser }) => {
     const title = await page.title()
     expect(title).toContain('Google')
     console.log(title)
+    console.log(page)
     
 });
 
