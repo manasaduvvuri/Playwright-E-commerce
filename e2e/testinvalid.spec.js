@@ -32,7 +32,7 @@ test('Changing dropdown', async ({ page }) => {
 	await console.log("drop down selected")
 })
 
-test.only('change from admin to user', async ({ page }) => {
+test('change from admin to user', async ({ page }) => {
 	await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
 	await page.locator('#username').fill("rahulshettyacademy");
 	await page.locator('#password').fill("learning");
@@ -40,4 +40,14 @@ test.only('change from admin to user', async ({ page }) => {
 	await page.locator('#okayBtn').click()
 	await page.pause()
 	
+})
+
+test('admin to user', async ({ page }) => {
+	await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
+	await page.locator('#username').fill("rahulshettyacademy");
+	await page.locator('#password').fill("learning");
+	await page.locator('.radiotextsty').last().click()
+	await page.locator('#okayBtn').click()
+	await page.pause()
+
 })
