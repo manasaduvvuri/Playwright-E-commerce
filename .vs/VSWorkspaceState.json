@@ -1,10 +1,11 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github\\workflows",
     "\\e2e",
     "\\tests",
     "\\tests-examples"
   ],
-  "SelectedNode": "\\e2e\\invalid.js",
+  "SelectedNode": "\\e2e\\testinvalid.spec.js",
   "PreviewInSolutionExplorer": false
 }
