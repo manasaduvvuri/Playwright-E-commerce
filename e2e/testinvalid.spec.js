@@ -69,7 +69,7 @@ test('to check blinking text', async ({ page }) => {
 })
 
 
-test.only('checking new page handling', async ({ browser }) => {
+test('checking new page handling', async ({ browser }) => {
 	const context = await browser.newContext()
 	const page = await context.newPage()
 	await page.goto("https://rahulshettyacademy.com/loginpagePractise/")
