@@ -1,0 +1,145 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - link "Skip to main content" [ref=e9]:
+        - /url: "#main_content"
+        - generic [ref=e10]: Skip to main content
+      - banner [ref=e11]:
+        - generic [ref=e15]:
+          - link "Expedia logo" [ref=e16]:
+            - /url: https://www.expedia.com/
+            - img "Expedia logo" [ref=e17]
+          - button "Shop travel" [ref=e20] [cursor=pointer]:
+            - generic [ref=e21]: Shop travel
+            - img "Shop travel" [ref=e22]: Shop travel
+          - list [ref=e24]:
+            - listitem [ref=e25]:
+              - button "USD US" [ref=e26] [cursor=pointer]:
+                - generic [ref=e27]: USD
+                - img "US" [ref=e28]
+            - listitem [ref=e29]:
+              - link "List your property" [ref=e30] [cursor=pointer]:
+                - /url: https://apps.expediapartnercentral.com/en_US/list?utm_medium=referral&utm_source=wwwexpediacom-en_US&utm_campaign=direct&utm_contentewd=pwa-header-btn&siteId=1&tpid=1&eapid=0&langId=1033&utm_term=direct&lasttouchMktgcode=direct
+            - listitem [ref=e31]:
+              - link "Support" [ref=e32] [cursor=pointer]:
+                - /url: /helpcenter/
+            - listitem [ref=e33]:
+              - link "Trips" [ref=e34] [cursor=pointer]:
+                - /url: /trips
+            - listitem [ref=e35]:
+              - link "Communication Center icon" [ref=e36] [cursor=pointer]:
+                - /url: /inbox/notifications
+                - img "Communication Center icon" [ref=e38]
+            - listitem [ref=e41]:
+              - generic [ref=e42]:
+                - button "Sign in" [expanded] [ref=e43] [cursor=pointer]
+                - generic [ref=e45]:
+                  - generic [ref=e47]: Unlock instant savings with Member Prices
+                  - list [ref=e48]:
+                    - listitem [ref=e49]:
+                      - link "Sign in" [ref=e51] [cursor=pointer]:
+                        - /url: /login?&uurl=e3id%3Dredr%26rurl%3D%2F
+                    - listitem [ref=e52]:
+                      - link "Learn more" [ref=e53] [cursor=pointer]:
+                        - /url: /welcome-one-key
+                  - separator [ref=e54]
+                  - list [ref=e55]:
+                    - listitem [ref=e56]:
+                      - link "Feedback" [ref=e58]:
+                        - /url: /p/info-other/feedback.htm
+                        - generic [ref=e59]: Feedback
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - figure [ref=e66]
+            - generic [ref=e69]:
+              - heading "Made to Travel" [level=1] [ref=e70]:
+                - generic [ref=e71]: Made to Travel
+              - generic [ref=e78]:
+                - tablist [ref=e80]:
+                  - tab "Stays" [selected] [ref=e81] [cursor=pointer]:
+                    - generic [ref=e83]: Stays
+                  - tab "Flights" [ref=e84] [cursor=pointer]:
+                    - generic [ref=e86]: Flights
+                  - tab "Cars" [ref=e87] [cursor=pointer]:
+                    - generic [ref=e89]: Cars
+                  - tab "Packages" [ref=e90] [cursor=pointer]:
+                    - generic [ref=e92]: Packages
+                  - tab "Things to do" [ref=e93] [cursor=pointer]:
+                    - generic [ref=e95]: Things to do
+                  - tab "Cruises" [ref=e96] [cursor=pointer]:
+                    - generic [ref=e98]: Cruises
+                  - listitem [ref=e99]
+                - generic [ref=e104]:
+                  - generic [ref=e109]:
+                    - generic: Where to?
+                    - button "Where to?" [ref=e110] [cursor=pointer]
+                    - img
+                  - generic [ref=e116]:
+                    - generic: Dates
+                    - button "Dates, Dec 12 - Dec 14" [ref=e117] [cursor=pointer]: Dec 12 - Dec 14
+                    - img
+                  - generic [ref=e120]:
+                    - generic: Travelers
+                    - button "Travelers, 2 travelers, 1 room" [ref=e121] [cursor=pointer]: 2 travelers, 1 room
+                    - img
+                  - generic [ref=e127]:
+                    - checkbox "Add a flight to Bundle & Save*" [ref=e128] [cursor=pointer]
+                    - paragraph [ref=e131] [cursor=pointer]: Add a flight to Bundle & Save*
+                  - button "Search" [ref=e133] [cursor=pointer]
+          - generic [ref=e144]:
+            - generic [ref=e147]:
+              - img [ref=e150]
+              - generic [ref=e154]: Winter savings
+            - generic [ref=e157]: Check out our latest deals for your next trip.
+            - link "See all deals" [ref=e160]:
+              - /url: https://www.expedia.com/deals
+        - generic [ref=e167]:
+          - generic [ref=e169]:
+            - generic [ref=e170]: Ad
+            - generic [ref=e171]: Ad
+          - generic [ref=e172]:
+            - figure [ref=e173]:
+              - link "A world in a city advertisement, Open in same window" [ref=e174]:
+                - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuwjUnCPEemMoiTNufD_dQV8N2z2Ps29fcJjXRQ9xQcJ03HEW8pohA4shQAZZ9QWWYPtoCkSlv9j5pYrGun2I2ZyJgn82Vt7k6nkcydNCDIDbYvOOswKz7qBv3DFEiVyaPkwYHnd94emrbAgm5fCS2pMRMHroZY9qE2JWno7qQ1vdrATI-2E-1qfKeJDPerYtUyCGZussKUFV_NfYoh1r_8VViMIBilpSzLb0nIY0Kzjejft3ujwPkXTdGcQw4ei_Anw8wO8EzE_S_PwGPEcjrXsh5U_0wxUr6Ox0WDkQ5GMmtfdcJv50KzTW7xfjLLbUYH2QCG3JfnOkMQbMKHqtXtyjSXmqyuCz984fGGixnCYntxpm7yNOjQT2duLw&sai=AMfl-YTi9aRtnaIY02tK0VCsVovRtAvuF7aj0Oq7cCZTKj89XdvGNZUztNpKrXa_-f5VD3mA8fWQWSVXy9WFQITRHuIfkwTVtEalHzAoEgtqCD1OPfzgf4_EsHe-cpROGSW9YDgaMwZQwU0GmUxndmOAZMCogZJV6sk4FzMmYrtxwNUcE85OTxqfbmFsFf1B4cgMGf65QgDtvtmqULkgo6lnbg0gDwyZwcZUzy34b0axDOHhE2wNHH3jR6u8dfPTUBvwcIU&sig=Cg0ArKJSzGQ95-bnhmWKEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.expedia.com/lp/b/ms-b-dmo-houston-first?
+                - generic [ref=e175]: A world in a city advertisement, Open in same window
+              - img "Ad" [ref=e178]
+            - generic [ref=e179]:
+              - img "Advertiser Logo" [ref=e181]
+              - heading "A world in a city" [level=2] [ref=e182]
+              - generic [ref=e183]: Taste, see and celebrate the world in one unforgettable city. Explore all Houston has to offer.
+          - link "A world in a city advertisement, Open in same window" [ref=e184]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsuwjUnCPEemMoiTNufD_dQV8N2z2Ps29fcJjXRQ9xQcJ03HEW8pohA4shQAZZ9QWWYPtoCkSlv9j5pYrGun2I2ZyJgn82Vt7k6nkcydNCDIDbYvOOswKz7qBv3DFEiVyaPkwYHnd94emrbAgm5fCS2pMRMHroZY9qE2JWno7qQ1vdrATI-2E-1qfKeJDPerYtUyCGZussKUFV_NfYoh1r_8VViMIBilpSzLb0nIY0Kzjejft3ujwPkXTdGcQw4ei_Anw8wO8EzE_S_PwGPEcjrXsh5U_0wxUr6Ox0WDkQ5GMmtfdcJv50KzTW7xfjLLbUYH2QCG3JfnOkMQbMKHqtXtyjSXmqyuCz984fGGixnCYntxpm7yNOjQT2duLw&sai=AMfl-YTi9aRtnaIY02tK0VCsVovRtAvuF7aj0Oq7cCZTKj89XdvGNZUztNpKrXa_-f5VD3mA8fWQWSVXy9WFQITRHuIfkwTVtEalHzAoEgtqCD1OPfzgf4_EsHe-cpROGSW9YDgaMwZQwU0GmUxndmOAZMCogZJV6sk4FzMmYrtxwNUcE85OTxqfbmFsFf1B4cgMGf65QgDtvtmqULkgo6lnbg0gDwyZwcZUzy34b0axDOHhE2wNHH3jR6u8dfPTUBvwcIU&sig=Cg0ArKJSzGQ95-bnhmWKEAE&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.expedia.com/lp/b/ms-b-dmo-houston-first?
+            - generic [ref=e185]: A world in a city advertisement, Open in same window
+  - generic [ref=e187]: Image 1 out of 5.
+  - iframe [ref=e189]:
+    - dialog "Sign in with Google" [ref=f2e4]:
+      - generic [ref=f2e5]:
+        - generic [ref=f2e6]:
+          - img [ref=f2e8]
+          - heading "Sign in with Google" [level=1] [ref=f2e14]
+        - button "Close" [ref=f2e15]:
+          - img [ref=f2e16]
+      - generic [ref=f2e19]:
+        - generic [ref=f2e20]:
+          - paragraph [ref=f2e21]: Use your Google Account to sign in to Expedia Group
+          - paragraph [ref=f2e22]: No more passwords to remember. Signing in is fast, simple and secure.
+          - img [ref=f2e24]
+        - button "Continue" [ref=f2e56] [cursor=pointer]:
+          - generic [ref=f2e58]: Continue
+  - region "Cookie banner" [ref=e190]:
+    - alertdialog "Privacy" [ref=e191]:
+      - paragraph [ref=e196]:
+        - text: This site uses cookies and similar tracking technology. As disclosed in our Privacy Statement, we and our partners may collect personal information and other data. By continuing to use our website, you accept our
+        - link "Privacy Statement" [ref=e197]:
+          - /url: /lp/b/lg-privacypolicy
+        - text: and
+        - link "Terms of Service" [ref=e198]:
+          - /url: /lp/b/terms-of-service
+        - text: .
+      - button "Close" [ref=e200] [cursor=pointer]
+```

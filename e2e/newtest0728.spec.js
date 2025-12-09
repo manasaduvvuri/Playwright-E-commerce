@@ -17,7 +17,7 @@ test('Login and print all the elements titles', async ({ page }) => {
 
 })
 
-test.only('Add zara coat to cart', async ({ page }) => {
+test('Add zara coat to cart', async ({ page }) => {
     await page.goto('https://rahulshettyacademy.com/client')
     await page.locator('#userEmail').fill('anshika@gmail.com')
     await page.locator('#userPassword').fill("Iamking@000")
