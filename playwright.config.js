@@ -14,19 +14,36 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
     testDir: './e2e',
-    reporter: 'html',
-    headless : 'False',
+    reporter: [["line"], ["allure-playwright", {resultsDir:"allure-results"}]],
     expect : {
     timeout:5000000
-     },
-  
-  use: {
-   
-      browserName : 'firefox'
+    },
+    projects: [
+        {
+            name: 'chrome',
+            use: {
 
-    
-  },
+                //browserName: 'chromium',
+                headless: true,
+                screenshot: 'on',
+                trace: 'on',
+                
+            }}
+        ,
+        {
+            name: 'safari',
+            use: {
+                browserName: 'webkit',
+                headless: false,
+                screenshot: 'on'
+            }}
+        
 
-  
-});
+
+
+    ]
+       
+                }
+ 
+);
 

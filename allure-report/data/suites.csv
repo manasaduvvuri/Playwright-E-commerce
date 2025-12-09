@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","30482","change types of trips options","safari","Mon Dec 08 16:38:50 EST 2025","broken","Mon Dec 08 16:39:20 EST 2025","","Flight_travel_booking.spec.js","",""
+"","6293","Login and print all the elements titles","safari","Mon Dec 08 16:38:44 EST 2025","passed","Mon Dec 08 16:38:50 EST 2025","","ddt.spec.js","",""
+"","30387","change types of trips options","chrome","Mon Dec 08 16:38:35 EST 2025","broken","Mon Dec 08 16:39:05 EST 2025","","Flight_travel_booking.spec.js","",""
+"","6291","Login and print all the elements titles","chrome","Mon Dec 08 16:38:35 EST 2025","passed","Mon Dec 08 16:38:41 EST 2025","","ddt.spec.js","",""
